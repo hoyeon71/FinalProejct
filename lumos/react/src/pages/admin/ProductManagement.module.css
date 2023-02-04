@@ -1,0 +1,77 @@
+.bodyDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 15px;
+    height: 100%;    
+    width: 100%;
+}
+table {
+    border-collapse: collapse;
+  border-spacing: 0;
+}
+.buttonDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.buttonDiv button {
+    width: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 25px;
+    height: 30px;
+    border-radius: 25px;
+    border: white;
+    background-color: #73CEBE;
+    font-weight: bold;
+    color: white;
+}
+
+.productTable{
+    text-align:center;
+    font-size: 14px;
+    width: 80%;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.productTable thead {
+    background: #73CEBE;
+}
+
+.productTable tr:hover { 
+    background-color: #F5F5F5; 
+}
+
+.productTable tr {
+    cursor: pointer;
+    padding: 100px;
+}
+
+.productTable th {
+    padding: 14px 0;
+}
+
+.productTable td {
+    padding: 14px 0;
+}
+
+.productTable tbody td {
+    border-top: 1px solid #e7e7e7;
+    text-align: center; 
+}
+
+.productTable tbody th {
+  padding-left: 28px;
+  padding-right: 14px;
+  border-top: 1px solid #e7e7e7;
+  text-align: left;
+}
+
+.productTable tbody th p {
+    display: none;
+}
+
+.productInfoDiv {
+    margin: 30px;
+}

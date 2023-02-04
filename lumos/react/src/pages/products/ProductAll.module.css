@@ -1,0 +1,27 @@
+.productDiv {
+    display: flex;
+    flex-wrap: wrap;
+    width: 850px;
+    height: 100%;
+    margin: 30px;
+}
+
+.pagingBtn{
+    margin: 10px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    background-color: white;
+    font-weight: bold;
+}
+
+.pagingBtn:hover{
+    cursor: pointer;
+    background-color: #73CEBE;
+}
+
+.product {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}

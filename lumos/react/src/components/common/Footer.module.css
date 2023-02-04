@@ -1,0 +1,53 @@
+.boxing {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headLine {
+    width: 100%;
+    background-color: #73CEBE;
+    height: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.footer table {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+.footer thead {
+    text-align: left;
+    font-size: 1.2em;
+}
+
+.footer tbody {
+    line-height: 23px;
+    white-space: pre;
+    text-align: left;
+    font-size: 0.9em;
+}
+
+.footer th {
+    line-height: 50px;
+    border-bottom: 2px solid #73CEBE;
+}
+
+.footer td {
+    line-height: 30px;
+}
+
+.companyInfo td:hover {
+    cursor: pointer;
+    color: #73CEBE;
+}
+
+.qnA td:hover {
+    cursor: pointer;
+    color: #73CEBE;
+}

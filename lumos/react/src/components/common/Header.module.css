@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Boxing {
+    font-family: 'Pretendard-Regular';
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid #73CEBE;
+    margin-top: 25px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+
+.Logo {
+    margin-left: 180px;
+    width: 200px;
+    
+}
+
+.linkbox{
+    margin-right: 90px;
+    margin-top: 18px;
+    align-items: flex-end;
+}
+
+.headerNavLink{
+    margin-right: 80px;
+    color: #73CEBE;
+    border:none;
+    background-color: #ffffff;
+    font-size: 22px;
+    border-radius: 50px;
+}
+.headerNavLink:hover {
+    color: #73CEBE;
+    background-color: #FCFF6A;
+    
+}
+
+.headerbutton{
+    font-family: 'Pretendard-Regular';
+    margin-right: 60px;
+    color: #73CEBE;
+    border:none;
+    background-color: #ffffff;
+    font-size: 22px;
+    border-radius: 50px;
+}
+
+.headerbutton:hover {
+    font-weight: bolder;
+    color: #73CEBE;
+    background-color: #FCFF6A;
+}
+
+li {
+    font-family: 'Pretendard-Regular';
+    list-style: none;
+    float: left;
+}

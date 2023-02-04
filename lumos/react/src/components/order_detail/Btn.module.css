@@ -1,0 +1,68 @@
+/* 글씨체 전역 설정 */
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Pretendard-Regular';
+}
+
+.submitBtn {
+    border: none;
+    margin: 5px;
+    width: 70px;
+    line-height: 25px;
+    border-radius: 25px;
+    background-color: rgba(115, 206, 190, 0.7);
+    color: white;
+    /* background-color: white; */
+    /* color: #646464; */
+    font-weight: bold;
+    float: right;
+}
+
+.submitBtn:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.cartBtn {
+    border: none;
+    margin: 5px;
+    width: 350px;
+    line-height: 50px;
+    border-radius: 5px;
+    background-color: rgba(115, 206, 190, 0.7);
+    color: white;
+    /* background-color: white; */
+    /* color: #646464; */
+    font-weight: bold;
+    float: right;
+}
+
+.cartBtn:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.reviewBtn {
+    border: none;
+    margin: 5px;
+    width: 50px;
+    line-height: 25px;
+    border-radius: 15px;
+    background-color: rgba(115, 206, 190, 0.7);
+    color: white;
+    /* background-color: white; */
+    /* color: #646464; */
+    font-weight: bold;
+    float: right;
+}
+
+.reviewBtn:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}

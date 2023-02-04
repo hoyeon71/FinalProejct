@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.backgroundDiv{
+    font-family: 'Pretendard-Regular';
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /*수평 정렬*/
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.loginlabel{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 50px;
+    color: #73CEBE;
+    margin-right: 700px;
+}
+
+.loginDiv{
+    height: 482px;
+    width: 826px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; /*수평 정렬*/
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    border: solid 1px #73CEBE;
+    border-radius: 10px;    
+}
+
+.loginInput {
+    font-size: 18px;
+    margin-bottom: 25px;
+    height: 60px;
+    width: 450px;
+    border-radius: 10px;
+    border: solid 1px #73CEBE;
+    text-indent: 10px;
+    outline: none;
+}
+
+.loginIDinputlabel{
+    margin-bottom: 8px;
+    margin-right: 390px;
+    font-size: 25px;
+    color: #73CEBE;
+    font-weight: bolder;
+}
+
+.loginPWinputlabel {
+    margin-bottom: 8px;
+    margin-right: 370px;
+    font-size: 25px;
+    color: #73CEBE;
+    font-weight: bolder;
+}
+
+.loginBTN {
+    margin-top: 25px;
+    margin-bottom: 5px;
+    height: 60px;
+    width: 450px;
+    border-radius: 10px;
+    background-color: #73CEBE;
+    font-weight: bold;
+    border: none;
+    font-size: 25px;
+    color: white;
+    border: solid 1px #73CEBE;
+}
+.loginBTN:hover {
+    color: #FCFF6A;
+    cursor: pointer;
+}
+
+.loginRegiBTN{
+    margin-top: 13px;
+    border: none;
+    color: #73CEBE;
+    background-color: #ffffff;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+
+.loginRegiBTN:hover{
+    background-color: #FCFF6A;
+    border-radius: 50px;
+    font-weight: bold;
+}

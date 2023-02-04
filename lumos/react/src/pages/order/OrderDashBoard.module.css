@@ -1,0 +1,99 @@
+/* 글씨체 전역 설정 */
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Pretendard-Regular';
+}
+
+.boxing table {
+    border-collapse: collapse;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.left {
+    width: 900px;
+    text-align: center;
+}
+
+.right {
+    width: 250px;
+}
+
+.boxing table th {
+    font-size: 1.5em;
+    line-height: 60px;
+    text-align: left;
+    border-bottom: 2px solid black;
+}
+
+.boxing table td {
+    font-size: 1.2em;
+    line-height: 40px;
+}
+
+.boxing {
+    font-family: 'Pretendard-Regular';
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.info {
+    width: 150px;
+}
+
+.guide {
+    width: 80px;
+}
+
+.bottom table {
+    border-collapse: collapse;
+    width: 1200px;
+    margin-top: 25px;
+}
+
+.bottom table th {
+    font-size: 1.5em;
+    line-height: 60px;
+    text-align: left;
+}
+
+.bottom table td {
+    font-size: 1em;
+    line-height: 40px;
+    text-align: right;
+}
+
+.bottom {
+    font-family: 'Pretendard-Regular';
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.bottom button {
+    border: none;
+    margin: 5px;
+    width: 120px;
+    line-height: 35px;
+    border-radius: 25px;
+    background-color: rgba(115, 206, 190, 0.7);
+    color: white;
+    font-weight: bold;
+
+}
+
+.bottom button:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}

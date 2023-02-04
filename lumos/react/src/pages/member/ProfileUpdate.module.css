@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.PUwrapper{
+    /* height: 100vh;
+    display: flex;
+    flex-direction: column; /*수평 정렬*/
+    /*align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: #E8E8E8; */
+    font-family: 'Pretendard-Regular';
+    position: relative;
+    height: 100%;
+}
+
+.PUcontent{    
+    /* height: 350px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; /*수평 정렬*/
+    /*align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 25px;    */
+    margin-right: 350px;
+   
+}
+
+.PUheader {
+    
+    margin-top: 57px;
+    margin-bottom: 35px;
+    color: #73CEBE;
+    font-size: 32px;
+    font-family: 'Pretendard-Regular';
+}
+
+.PUlabel {
+    color: #73CEBE;
+    font-size: 20px;  
+}
+
+.field {
+    margin-top: 30px;
+}
+
+.PUinput {
+    font-family: 'Pretendard-Regular';
+    margin-top: 10px;
+    margin-bottom: 25px;
+    height: 45px;
+    width: 280px;
+    border-radius: 10px;
+    text-indent: 10px;
+    font-size: 14px;
+    border: solid 1px #73CEBE;
+    color: #363636;
+    outline: none;
+}
+
+
+
+
+
+
+.PUmodify {
+    font-family: 'Pretendard-Regular';
+    margin-top: 10px;
+    margin-bottom: 25px;
+    height: 45px;
+    width: 280px;
+    border-radius: 10px;
+    text-indent: 10px;
+    font-size: 14px;
+    border: solid 1px #73CEBE;
+    color: #363636;
+    background-color: #d8d8d8;
+    outline: none;
+}
+.PUbuttonWrap {
+    display: table;
+    width: 100%;
+}
+.PUbutton {
+    display: table-cell;
+    float: left;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    height: 45px;
+    width: 130px;
+    border-radius: 10px;
+    background-color: #73CEBE;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: none;
+    font-size: 16px;
+    
+}
+
+.PUbutton:hover {
+    cursor: pointer;
+    color: #FCFF6A;
+    font-weight: bold;
+}
+
+.adsWrapWrap{
+    display: table;
+    width: 100%;
+}
+.adsWrap {
+    display: table-cell;
+    float: left;
+    
+    justify-content: space-between;
+}
+
+.inputadsNum {
+    font-family: 'Pretendard-Regular';
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-right: 10px;
+    border-radius: 10px;
+    text-indent: 10px;
+    font-size: 14px;
+    border: solid 1px #73CEBE;
+    color: #363636;
+    outline: none;
+    height: 45px;
+    width: 66px;
+    
+}
+
+
+
+.inputads {
+    font-family: 'Pretendard-Regular';
+    margin-top: 10px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    text-indent: 10px;
+    font-size: 14px;
+    border: solid 1px #73CEBE;
+    color: #363636;
+    outline: none;
+    height: 45px;
+    width: 200px;
+}
+

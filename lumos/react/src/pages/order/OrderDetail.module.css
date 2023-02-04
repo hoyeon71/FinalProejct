@@ -1,0 +1,98 @@
+/* 글씨체 전역 설정 */
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Pretendard-Regular';
+}
+
+.boxing table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.boxing table thead {
+    border-bottom: 2px solid black;
+}
+
+.boxing table thead th {
+    font-size: 1.3em;
+}
+
+.boxing table th {
+    line-height: 50px;
+    text-align: left;
+}
+
+.boxing table td {
+    line-height: 50px;
+}
+
+.boxing {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.headline1 {
+    font-weight: bold;
+    background-color: rgba(115, 206, 190, 0.5);
+    width: 250px;
+    text-align: center;
+    /* padding-left: 0; */
+    border-bottom: 2px solid black;
+}
+
+.headline2 {
+    width: 300px;
+    text-align: center;
+    /* padding-left: 0; */
+    border-bottom: 2px solid black;
+}
+
+.content {
+    display: flex;
+    margin-top: 0px;
+}
+
+.top {
+    width: 1200px;
+}
+
+.left {
+    width: 800px;
+    margin-right: auto;
+}
+
+.leftTh th {
+    width: 200px;
+}
+
+.right {
+    width: 350px;
+    text-align: right;
+}
+
+.orderProduct td {
+    /* padding-left: 0; */
+    text-align: center;
+}
+
+select {
+    width: 200px;
+}
+
+input {
+    width: 192px;
+}
+
+input :disabled{
+    background-color: #646464;
+}
