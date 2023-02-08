@@ -129,7 +129,7 @@ function ProductDetail() {
 
     const onClickPurchaseHandler = () => {
 
-        /* 로그인 상태인지 확인 */
+        // 로그인 상태인지 확인 
         const token = decodeJwt(window.localStorage.getItem("accessToken"));
         console.log('[onClickPurchaseHandler] token : ', token);
 
